@@ -231,8 +231,8 @@ function Haszon5V(x, y) {
     if (neki == 0) h = HaszonNekem[nekem]
 
     for (let n = y; n < y + 5; n++) {
-        if (MAP[n][y] == FIELDS.Empty) {
-            HaszonMap[n][y] += h
+        if (MAP[x][n] == FIELDS.Empty) {
+            HaszonMap[x][n] += h
         }
     }
 }
